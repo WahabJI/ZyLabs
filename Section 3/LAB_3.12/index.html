@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Happy Birthday Message Creator</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Happy Birthday Message Creator</h1>
+   <form method="POST" action="https://wp.zybooks.com/form-viewer.php">
+      <div>
+         <label for="birthdayMessage">Message?</label>
+         <input type="text" id="birthdayMessage" name="birthdayMessage" value="Happy birthday!">
+      </div>
+      <div>
+         <label for="emailAddr">Email address?</label>
+         
+         <!-- TODO: Add regular expression to pattern -->
+         <input pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" type="email" id="emailAddr" name="emailAddr" placeholder="name@domain.com">
+      </div>
+      <div>
+         <label for="dateToSend">Date to send?</label>
+         <!-- TODO: Add date widget -->
+         <input type="date" id="dateToSend" name="dateToSend">
+      </div>
+      <div>
+         <label for="messageColor">Message color?</label>
+         <!-- TODO: Add color widget -->
+         <input type="color" id="messageColor" name="messageColor">
+      </div>
+      <div>
+         <label for="numBlinks">Number of blinks?</label>
+         <!-- TODO: Add number widget -->
+         <input type="number" id="numBlinks" name="numBlinks" min="0" max="10" value="0">
+      </div>
+      <div>
+         <label for="musicVolume">Music volume?</label>
+         <!-- TODO: Add range widget -->
+         <input type="range" id="musicVolume" name="musicVolume" min="0" max="50" value="20">
+      </div>
+     
+     <!-- TODO: Add submit button -->
+     <button type="submit">Send Birthday Message</button>
+   </form>
+   
+</body>
+
+</html>

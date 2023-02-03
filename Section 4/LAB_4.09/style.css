@@ -1,0 +1,59 @@
+/* Your code goes here */
+*{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+h1{
+    font-size: 16px;
+    color: #444444;
+}
+table{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-spacing: 0;
+}
+th{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: solid 1px #f1f1f1;
+    padding: 10px;
+    margin: 0%;
+    color: #777777;
+}
+td{
+    font-weight: lighter;
+    color: #444444;
+    padding: 20px 10px;
+    border-bottom: solid 1px #f1f1f1;
+    margin: 0%;
+    text-align: left;
+}
+/*Define a container class whose contents is centered, has a 5 pixel margin, and defines a font size of 13px*/
+.container{
+    margin: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+.offer{
+    display:inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: solid 1px #cccccc;
+}
+.offerTitle{
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #00B3B3;
+    padding: 15px;
+    margin: 0%;
+    font-weight: bold;
+}
+.offerContents{
+    padding: 20px;
+    background-color: #FAFAFA;
+}
+.finalValue{
+    font-weight: bold;
+    color: #2222FF;
+}
