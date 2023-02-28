@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <script>
+    function ChangeTextColor(newColor) {
+      var x = document.getElementById("Colorable");
+      x.style.color = newColor;
+    }
+  </script>
+  <style>
+  h1 {
+    color: green;
+    background-color: lightgray;
+    font-size: 16pt;
+  }
+  p {
+    font-family: arial;
+    margin-left: 10px;
+  }
+  strong {
+    background-color: lightgreen;
+    padding: 5px;
+  } 
+  </style>
+  <title>For sale: 2012 Ducati Streetfighter</title>
+  <body>
+    <h1 id="Colorable">Ducati Streetfighter - $9000</h1>
+    <p>year: <strong>2012</strong></p>
+    <p>make and model: <strong>Ducati Streetfighter 848</strong></p>
+    <p>condition: <strong>excellent</strong></p>
+    <p>odometer: <strong>9500</strong></p>
+    
+    <p id="buttons">Change heading color to: 
+    <button type="button" onclick="ChangeTextColor('white')">White</button>
+    <button type="button" onclick="ChangeTextColor('green')">Green</button>
+    <button type="button" onclick="ChangeTextColor('blue')">Blue</button>
+    </p>
+  </body>
+</html>
+        
