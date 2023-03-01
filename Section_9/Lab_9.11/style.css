@@ -1,0 +1,55 @@
+body {
+  font: 12pt Arial;   
+}
+
+div.card {
+   display: block;
+   border: 1px solid #cccccc;
+   box-shadow: 0px 2px 2px #dddddd, 0px 0px 5px #dddddd;
+   border-radius: 2px;
+   width: 400px;
+   margin: 10px;
+}
+
+div.card * {
+   margin: 5px;
+   padding: 5px;
+}
+
+div.card h2 {
+   color: #efefef;
+   font-weight: bold;
+   margin: 0px;
+   padding: 10px;
+   background-color: #058;
+   text-align: center;
+}
+   
+label {
+   display: block;
+}
+
+input[type=text], select, textarea {
+   width: 95%;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.data {
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+button {
+   width: 200px;
+   background-color: #069;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: #036;
+}

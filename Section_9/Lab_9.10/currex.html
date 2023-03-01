@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Currency Exchange</title>
+      
+   <!-- Compiled and minified JavaScript -->
+   <script src="jquery-3.2.1.min.js"></script>
+            
+   <!--Let browser know website is optimized for mobile-->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+   <link href="style.css" rel="stylesheet">
+   <script src="currex.js" defer></script>
+</head>
+    
+<body>
+   <div class="card">
+      <h2>Currency Conversion</h2>
+      
+      <p>Enter USD and select desired currency.</p>
+      
+      <div>
+         <label for="usdInput">US Dollars (USD):</label>
+		   <input type="text" id="usdInput" name="usdInput" value="100.00"></input>
+      </div>
+      
+      <div>
+         <label for="toCurrency">Select currency:</label>
+         <select id="toCurrency">
+         </select>
+      </div>
+      
+      <div>
+         <label id="resultLabel" for="resultCurrency">To Currency ():</label>
+         <input type="text" id="resultCurrency" name="resultCurrency" value="---.--" readonly></input>
+      </div>   
+   </div>
+         
+   <div class="card data">
+      <h2>Exchange Rate Data (JSON)</h2>
+      
+      <textarea rows="5" id="exchangeRates" name="exchangeRates">{"disclaimer":"Usage subject to terms: https://openexchangerates.org/terms","license":"https://openexchangerates.org/license","timestamp":1534467600,"base":"USD","rates":{"CAD":1.316145,"CNY":6.882134,"EUR":0.879303,"INR":70.015}}</textarea>
+		<button id="updateRates">Update Rates</button>
+   </div>
+   
+</body>
+</html>

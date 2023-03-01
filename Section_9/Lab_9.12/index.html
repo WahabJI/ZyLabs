@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+   	<title>Exceptional Quotes (jQuery)</title>
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   	<script src="quote.js"></script>
+   	<style>
+   		body {
+   			font-family: Arial, Helvetica, sans-serif;
+   		}
+   		#quotes {
+   			background-color: #F1EAFF;
+   			padding-top: 10px;
+   			padding-bottom: 10px;
+   		}
+   	</style>
+   </head>
+	<body>
+		<h1>Exceptional Quotes</h1>
+
+		<p>
+			<label for="topicSelection">Select a topic:</label>
+			<select id="topicSelection">
+            <option>Choose one</option>
+				<option>love</option>
+				<option>motivational</option>
+				<option>wisdom</option>
+				<option>humor</option>
+			</select>
+		</p>
+		<p>
+			<label for="countSelection">How many quotes?</label>
+			<select id="countSelection">
+				<option>1</option>
+				<option>2</option>
+				<option selected>3</option>
+				<option>4</option>
+				<option>5</option>
+			</select>
+		</p>
+		<p>
+		   <button id="fetchQuotesBtn">Fetch Quotes</button>
+		</p>
+		<div id="quotes">
+		</div>
+	</body>
+</html>
