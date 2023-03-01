@@ -1,0 +1,11 @@
+.circle {
+	transition-property: width, height, margin-left, margin-top;
+	transition-duration: 2s;
+	position: fixed;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: coral;
+	border-radius: 50%;
+	font-size: 30px;
+	line-height: 240px;
+	text-align: center;
+}

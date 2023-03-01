@@ -1,0 +1,19 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ol button {
+	width: 28px;
+	height: 28px;
+	line-height: 10px;
+	margin-right:3px;
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+span {
+	display: inline-block;
+	width: 150px;
+}

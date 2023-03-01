@@ -1,0 +1,51 @@
+form {
+   font: 14px Arial;
+   background-color: #eee;
+   padding: 10px;
+   width: 400px;
+}
+
+form h1 {
+   margin-top: 5px;
+}
+
+.hide {
+	display: none;
+}
+
+#formErrors {
+   color: red;
+}
+
+input[type=text], input[type=email], input[type=password] {
+   width: 400px;
+   padding: 8px;
+   margin-top: 4px;
+   margin-bottom: 12px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+input[type=text]:focus {
+   background-color: lightblue;
+}
+
+input[type=submit] {
+   width: 100%;
+   color: white;
+   background-color: #09f;
+   padding: 15px;
+   margin-top: 10px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #07d;
+}
+
+input.error  {
+   border: 2px solid red;
+}

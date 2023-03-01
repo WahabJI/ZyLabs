@@ -1,0 +1,26 @@
+input {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: lightgray;
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+}
+
+#submit {
+  font-size: 12px;
+  background-color: #5077e7;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+#formErrors {
+  display: none;
+  color: red;
+}
